@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Factions Manager",
-  description: "Gerenciador de Factions",
+  title: "SISTEMINHA DE RAUL",
+  description: "Gerenciador",
 };
 
 export default function RootLayout({
