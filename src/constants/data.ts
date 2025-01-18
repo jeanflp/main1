@@ -30,7 +30,7 @@ export const farms: Farm[] = [
 
 export const status: Status[] = [
   {
-    name: "Pendente BTC",
+    name: "Pendente",
     color: "bg-purple-500",
     isDefault: true,
   },
