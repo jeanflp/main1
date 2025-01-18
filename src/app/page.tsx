@@ -389,7 +389,7 @@ export default function Home() {
                       disabled={isUpdating.farm === member.id}
                     >
                       <SelectTrigger className="w-full">
-                        <SelectValue placeholder="Farm" />
+                        <SelectValue placeholder="Nenhum" />
                       </SelectTrigger>
                       <SelectContent>
                         {farms.map((farm) => (
