@@ -320,7 +320,7 @@ export default function Home() {
                 <TableHead>Usuário</TableHead>
                 <TableHead>Responsável</TableHead>
                 <TableHead>Missão</TableHead>
-                <TableHead>Função</TableHead>
+                <TableHead>Chave</TableHead>
                 <TableHead className="flex items-center gap-1">
                   Status
                   <Popover>
