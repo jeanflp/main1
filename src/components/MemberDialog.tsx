@@ -83,14 +83,14 @@ export function MemberDialog({
                 />
               </div>
               <div className="col-span-2">
-                <Label htmlFor="role">Função</Label>
+                <Label htmlFor="role">Chave</Label>
                 <Input
                   id="role"
                   value={formData.role}
                   onChange={(e) =>
                     setFormData({ ...formData, role: e.target.value })
                   }
-                  placeholder="Função"
+                  placeholder="Chave de Criptomoeda"
                 />
               </div>
               <div className="col-span-2">
