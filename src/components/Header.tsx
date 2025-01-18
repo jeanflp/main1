@@ -12,7 +12,7 @@ export function Header() {
     <div className="flex justify-between items-center mb-6">
       <div className="flex items-end gap-5">
         <Link href="/" className="text-2xl font-bold hover:opacity-80">
-          Factions Manager
+          @JEAFLP HUB - COINBASE
         </Link>
 
         <Link
@@ -24,7 +24,7 @@ export function Header() {
           }`}
         >
           <UserPen className="w-4 h-4" />
-          <span>Nomes</span>
+          <span>E-mails</span>
         </Link>
       </div>
 
