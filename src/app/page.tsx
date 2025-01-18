@@ -289,7 +289,7 @@ export default function Home() {
       <div className="flex items-end gap-4 mb-4">
         <Dialog>
           <DialogTrigger asChild>
-            <Button onClick={() => setOpen(true)}>+ Adicionar membro</Button>
+            <Button onClick={() => setOpen(true)}>+ Adicionar conta</Button>
           </DialogTrigger>
           <MemberDialog
             open={open}
