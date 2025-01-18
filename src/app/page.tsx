@@ -283,7 +283,7 @@ export default function Home() {
   };
 
   return (
-    <div className="container p-6 mx-auto">
+    <div className="p-6 mx-auto">
       <Header />
 
       <div className="flex items-end gap-4 mb-4">
