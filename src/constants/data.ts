@@ -16,26 +16,26 @@ export const farms: Farm[] = [
   },
   {
     id: "2",
-    name: "Esqueleto",
+    name: "Jean",
   },
   {
     id: "3",
-    name: "Zumbi",
+    name: "Lucca",
   },
   {
     id: "4",
-    name: "Creeper",
+    name: "Igor",
   },
 ];
 
 export const status: Status[] = [
   {
-    name: "Pendente",
+    name: "Pendente BTC",
     color: "bg-purple-500",
     isDefault: true,
   },
   {
-    name: "Vender",
+    name: "Vender BTC",
     color: "bg-yellow-500",
   },
   {
@@ -43,11 +43,19 @@ export const status: Status[] = [
     color: "bg-blue-500",
   },
   {
-    name: "Realizado",
+    name: "CORE/SMS",
+    color: "bg-red-500",
+  },
+  {
+    name: "Missões Realizadas",
     color: "bg-green-500",
   },
   {
     name: "Review",
     color: "bg-slate-800",
+  },
+  {
+    name: "Arquivada",
+    color: "bg-orange-600",
   },
 ];
