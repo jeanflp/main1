@@ -135,14 +135,14 @@ export default function NomesPage() {
   return (
     <div className="container p-6 mx-auto">
       <Header />
-      <h1 className="text-2xl font-bold mb-6">Nomes</h1>
+      <h1 className="text-2xl font-bold mb-6">E-mails</h1>
       <Dialog open={open} onOpenChange={setOpen}>
         <DialogTrigger asChild>
-          <Button className="mb-5">+ Adicionar nomes</Button>
+          <Button className="mb-5">+ Adicionar e-mail</Button>
         </DialogTrigger>
         <DialogContent>
           <DialogHeader>
-            <DialogTitle>Adicionar nomes</DialogTitle>
+            <DialogTitle>Adicionar e-mail</DialogTitle>
             <DialogDescription>
               <form onSubmit={handleSubmit} className="space-y-4 mt-4">
                 {names.map((name, index) => (
@@ -194,7 +194,7 @@ export default function NomesPage() {
                       Salvando...
                     </>
                   ) : (
-                    "Salvar nomes"
+                    "Salvar e-mails"
                   )}
                 </Button>
               </form>
