@@ -30,9 +30,13 @@ export const farms: Farm[] = [
     id: "5",
     name: "Vitinho",
   },
-      {
+    {
     id: "6",
     name: "Ana",
+  },
+      {
+    id: "7",
+    name: "Gui",
   },
 ];
 
