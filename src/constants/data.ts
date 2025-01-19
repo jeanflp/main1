@@ -51,7 +51,11 @@ export const status: Status[] = [
     color: "bg-blue-500",
   },
   {
-    name: "CORE/SMS",
+    name: "SMS",
+    color: "bg-red-500",
+  },
+  {
+    name: "CORE",
     color: "bg-red-500",
   },
   {
