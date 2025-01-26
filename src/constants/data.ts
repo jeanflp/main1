@@ -74,6 +74,7 @@ export const status: Status[] = [
     name: "Review",
     color: "bg-slate-800",
   },
+  {
     name: "Gato Preto",
     color: "bg-slate-800",
   },
