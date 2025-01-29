@@ -67,6 +67,10 @@ export const status: Status[] = [
     color: "bg-red-500",
   },
   {
+    name: "Sem ALEO",
+    color: "bg-pink-600",
+  },
+  {
     name: "Missões Realizadas",
     color: "bg-green-500",
   },
