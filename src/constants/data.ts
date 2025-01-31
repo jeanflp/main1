@@ -71,9 +71,14 @@ export const status: Status[] = [
     color: "bg-pink-600",
   },
   {
+    name: "Sem Missão",
+    color: "bg-slate-300",
+  },
+  {
     name: "Missões Realizadas",
     color: "bg-green-500",
   },
+
   {
     name: "Review",
     color: "bg-slate-800",
