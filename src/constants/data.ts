@@ -34,13 +34,17 @@ export const farms: Farm[] = [
     id: "6",
     name: "Ana",
   },
-      {
+    {
     id: "7",
     name: "Gui",
   },
-        {
+    {
     id: "7",
     name: "Marcela",
+  },
+      {
+    id: "7",
+    name: "Bila",
   },
 ];
 
