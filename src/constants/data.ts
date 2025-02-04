@@ -46,6 +46,10 @@ export const farms: Farm[] = [
     id: "7",
     name: "Bila",
   },
+      {
+    id: "7",
+    name: "Rita",
+  },
 ];
 
 export const status: Status[] = [
